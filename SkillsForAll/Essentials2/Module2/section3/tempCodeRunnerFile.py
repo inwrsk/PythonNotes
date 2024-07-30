@@ -1,0 +1,1 @@
+print('  ssdfk.com '.strip('c om.'))

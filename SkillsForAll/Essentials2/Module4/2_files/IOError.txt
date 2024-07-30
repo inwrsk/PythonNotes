@@ -1,0 +1,24 @@
+#when trying to access files
+
+errno.EACCES → Permission denied
+eg: open a file with the read only attribute for writing.
+
+errno.EBADF → Bad file number
+eg: operate with an unopened stream.
+
+errno.EEXIST → File exists
+eg: rename a file with its previous name.
+
+errno.EFBIG → File too large
+ create a file that is larger than the maximum allowed by the operating system.
+
+errno.EISDIR → Is a directory
+ treat a directory name as the name of an ordinary file.
+
+errno.EMFILE → Too many open files
+ simultaneously open more streams than acceptable for your operating system.
+
+errno.ENOENT → No such file or directory
+ access a non-existent file/directory.
+
+errno.ENOSPC → No space left on device

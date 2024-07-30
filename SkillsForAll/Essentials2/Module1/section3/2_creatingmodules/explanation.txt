@@ -1,0 +1,5 @@
+'''
+nomenculature of pyc file:
+modulename+python_implementation+version+pyc(python and compiled)
+#contains python semi compiled code instead of going slowing from the interpretation part
+'''

@@ -1,0 +1,38 @@
+pip help
+
+$ pip help install
+
+Usage:   
+  pip install [options] <requirement specifier> [package-index-options] ...
+  pip install [options] -r <requirements file> [package-index-options] ...
+  pip install [options] [-e] <vcs project url> ...
+  pip install [options] [-e] <local project path> ...
+  pip install [options] <archive url/path> ...
+
+  //to know what py packages are installed
+  pip list
+
+  //info about any installed package
+  pip show <package_name>
+
+$ pip show pandas
+Name: pandas
+Version: 1.5.3
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: https://pandas.pydata.org
+Author: The Pandas Development Team
+Author-email: pandas-dev@python.org
+License: BSD-3-Clause
+Location: c:\users\anwar shaik\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Requires: numpy, python-dateutil, pytz
+Required-by:
+
+to update package
+$ pip install -U pygame
+Requirement already satisfied: pygame in c:\users\anwar shaik\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (2.5.2)
+
+to install a version we want
+$ pip install pygame==1.9.2
+
+uninstall a package
+$ pip uninstall pygame

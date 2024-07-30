@@ -1,0 +1,2 @@
+#module is group of similar functions
+#package is a group of modules

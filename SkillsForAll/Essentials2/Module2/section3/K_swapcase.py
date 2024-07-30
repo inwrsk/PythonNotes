@@ -1,0 +1,1 @@
+print("$I know noThing.".swapcase())#$i KNOW NOtHING.

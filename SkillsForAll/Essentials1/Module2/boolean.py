@@ -1,0 +1,1 @@
+print(True>False)#True(1>0)

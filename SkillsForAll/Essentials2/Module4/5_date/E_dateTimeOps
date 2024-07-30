@@ -1,0 +1,12 @@
+from datetime import date
+from datetime import datetime
+
+d1 = date(2004, 3, 5)
+d2 = date(2003, 9, 26)
+
+print(d1 - d2,d1,d2)#161 days, 0:00:00 2004-03-05 2003-09-26
+
+dt1 = datetime(2020, 11, 4, 0, 0, 0)
+dt2 = datetime(2019, 11, 4, 14, 53, 0)
+
+print(dt1 - dt2)#365 days, 9:07:00

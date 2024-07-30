@@ -1,0 +1,1 @@
+print(type(45) is int)#True

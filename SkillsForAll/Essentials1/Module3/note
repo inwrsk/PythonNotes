@@ -1,0 +1,2 @@
+-> An individual element like x=10 or y='anwar' or z='true' is a scalar but a list cannot be a scalar even if it contains same datatype
+-> scalar is a single value. list,tuple dictionaries are collections

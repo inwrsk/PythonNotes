@@ -1,0 +1,1 @@
+print('$he knowS .evEryt. Ing'.title())#$He Knows .Everyt. Ing

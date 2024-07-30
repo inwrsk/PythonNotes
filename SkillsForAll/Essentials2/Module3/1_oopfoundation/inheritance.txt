@@ -1,0 +1,2 @@
+the relation when a class derived from another class
+the class derived from another class is subclass

@@ -1,0 +1,1 @@
+print(list('anwar'))#['a', 'n', 'w', 'a', 'r']
